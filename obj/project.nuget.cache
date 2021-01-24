@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "GTQwpXe0nG+qXCQ4av6cPoKf0F484ZDws42DzYXvUuzGMa4n0yqYXQd9EkJxjyhRrfgZlnJpoUui+O9qw9xewA==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\NishRaj\\source\\repos\\Btechsys\\Btechsys.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\NishRaj\\.nuget\\packages\\microsoft.aspnetcore.app.ref\\3.1.2\\microsoft.aspnetcore.app.ref.3.1.2.nupkg.sha512"
+  ],
+  "logs": []
+}

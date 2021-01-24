@@ -1,0 +1,264 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Welcome To Balaji Technosys</title>
+    <link rel="icon" type="image/png" href="~/img/favicon.ico">
+    <link rel="stylesheet" href="~/css/style.css" />
+
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-182283199-1"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag() { dataLayer.push(arguments); }
+        gtag('js', new Date());
+
+        gtag('config', 'UA-182283199-1');
+
+        gtag('event', 'timing_complete', {
+            'name': 'load',
+            'value': 3549,
+            'event_category': 'JS Dependencies'
+        });
+    </script>
+
+
+</head>
+<body>
+    <div class="preloader">
+        <div class="lds-ripple">
+            <div></div>
+            <div></div>
+        </div>
+    </div>
+    <div id="header" class="arduix-nav-style">
+        <div class="navbar-area">
+            <div class="mobile-nav">
+                <a asp-area="" asp-controller="Home" asp-action="Index" class="logo">
+                    <img src="~/img/logo.png" alt="Logo">
+                </a>
+            </div>
+            <div class="main-nav">
+                <nav class="navbar navbar-expand-md navbar-light">
+                    <div class="container">
+                        <a class="navbar-brand" asp-area="" asp-controller="Home" asp-action="Index">
+                            <img src="~/img/logo.png" alt="Logo">
+                        </a>
+                        <div class="collapse navbar-collapse mean-menu" id="navbarSupportedContent">
+                            <ul class="navbar-nav ml-auto">
+                                <li class="nav-item">
+                                    <a href="#home" class="nav-link dropdown-toggle">
+                                        Home
+                                    </a>
+
+                                </li>
+                                <li class="nav-item">
+                                    <a href="#about" class="nav-link dropdown-toggle">
+                                        About
+                                    </a>
+                                </li>
+                                <li class="nav-item">
+                                    <a href="#service" class="nav-link dropdown-toggle">
+                                        Services
+                                    </a>
+                                </li>
+                                <li class="nav-item">
+                                    <a href="#project" class="nav-link dropdown-toggle">
+                                        Projects
+                                    </a>
+                                </li>
+                                <li class="nav-item">
+                                    <a href="#contact" class="nav-link dropdown-toggle">
+                                        Contact
+                                    </a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </nav>
+            </div>
+        </div>
+    </div>
+
+    @RenderBody()
+
+    <footer class="footer-top-area pt-100 pb-70">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-6 col-md-6">
+                    <div class="single-widget">
+                        <a href="index.html">
+                            <img src="~/img/white-logo.png" alt="Image">
+                        </a>
+                        <p>We are software development company, our technical expertise and business understanding allows us to provide AI and Cloud enabled top-notch solution for our clients with industry best practices. We have a solid foundation to deliver quality business applications.</p>
+                        <p>&copy; 2020. Balaji Technosys. All Rights Reserved. </p>
+                        <!--<ul class="social-icon">
+                                                <li>
+                                                    <a href="#">
+                                                        <i class="bx bxl-facebook"></i>
+                                                    </a>
+                                                </li>
+                                                <li>
+                                                    <a href="#">
+                                                        <i class="bx bxl-twitter"></i>
+                                                    </a>
+                                                </li>
+                                                <li>
+                                                    <a href="#">
+                                                        <i class="bx bxl-pinterest-alt"></i>
+                                                    </a>
+                                                </li>
+                                                <li>
+                                                    <a href="#">
+                                                        <i class="bx bxl-linkedin"></i>
+                                                    </a>
+                                                </li>
+                                                <li>
+                                                    <a href="#">
+                                                        <i class="bx bxl-youtube"></i>
+                                                    </a>
+                                                </li>
+                                            </ul>-->
+                    </div>
+                </div>
+                <!--<div class="col-lg-3 col-md-6">
+                    <div class="single-widget">
+                        <h3>Services</h3>
+                        <ul>
+                            <li>
+                                <a href="#">
+                                    <i class="right-icon bx bx-chevrons-right"></i>
+                                    Service 1
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#">
+                                    <i class="right-icon bx bx-chevrons-right"></i>
+                                    Service 1
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#">
+                                    <i class="right-icon bx bx-chevrons-right"></i>
+                                    Service 1
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#">
+                                    <i class="right-icon bx bx-chevrons-right"></i>
+                                    Service 1
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#">
+                                    <i class="right-icon bx bx-chevrons-right"></i>
+                                    Service 1
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#">
+                                    <i class="right-icon bx bx-chevrons-right"></i>
+                                    Service 1
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>-->
+                <div class="col-lg-3 col-md-6">
+                    <div class="single-widget">
+                        <h3>Important Links</h3>
+                        <ul>
+                            <li>
+                                <a href="#home">
+                                    <i class="right-icon bx bx-chevrons-right"></i>
+                                    Home
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#about">
+                                    <i class="right-icon bx bx-chevrons-right"></i>
+                                    About
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#service">
+                                    <i class="right-icon bx bx-chevrons-right"></i>
+                                    Services
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#project">
+                                    <i class="right-icon bx bx-chevrons-right"></i>
+                                    Project
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#contact">
+                                    <i class="right-icon bx bx-chevrons-right"></i>
+                                    Contact
+                                </a>
+                            </li>
+                            <!--<li>
+                                <a href="#">
+                                    <i class="right-icon bx bx-chevrons-right"></i>
+                                    Service 1
+                                </a>
+                            </li>-->
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6">
+                    <div class="single-widget">
+                        <h3>Information</h3>
+                        <ul class="information">
+                            @*<li class="address">
+                                    <i class="flaticon-call"></i>
+                                    <span>Phone</span>
+                                    <a href="tel:+123-123-123">
+                                        +123123123
+                                    </a>
+                                </li>*@
+                            <li class="address">
+                                <i class="flaticon-envelope"></i>
+                                <span>Email</span>
+                                <a href="mailto:cto@btech-sys.com">
+                                    cto@btech-sys.com
+                                </a>
+                            </li>
+                            @*<li class="address">
+                                    <i class="flaticon-maps-and-flags"></i>
+                                    <span>Address</span>
+                                    Address1, Address 2, City.
+                                </li>*@
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="footer-shape">
+            <img src="~/img/offer-shape/footer-shape-one.png" alt="Image">
+            <img src="~/img/offer-shape/footer-shape-two.png" alt="Image">
+        </div>
+    </footer>
+
+    <script type="text/javascript" src="~/js/site.js"></script>
+    <script src="~/js/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+
+
+    <script>
+        $('ul.navbar-nav').find('a').click(function () {
+            var $href = $(this).attr('href');
+            var $anchor = $($href).offset();
+            window.scrollTo($anchor.left, $anchor.top);
+            return false;
+        });
+    </script>
+
+    @*<script src="~/lib/jquery/dist/jquery.min.js"></script>
+        <script src="~/lib/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
+        <script src="~/js/site.js" asp-append-version="true"></script>
+        @RenderSection("Scripts", required: false)*@
+</body>
+</html>
